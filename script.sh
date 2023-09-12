@@ -17,24 +17,18 @@ none='\e[0m'
 
 sed -i 's/#\?AllowTcpForwarding .*/AllowTcpForwarding yes/' /etc/ssh/sshd_config && sed -i 's/#\?PasswordAuthentication .*/PasswordAuthentication yes/' /etc/ssh/sshd_config && sed -i 's/#\?Banner .*/Banner \/etc\/ssh\/gcp_404/' /etc/ssh/sshd_config && /etc/init.d/ssh restart;
 echo "
-<h3><font color='red'>▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬
+<h3><font color='green'>༺༒G C P༒༻
 </font></h3>
-<h3><font color='magenta'>--- ۩ PREMIUM SERVER ۩ ---
-</font></h3>
-
-<h3><font color='green'>--- ۩ SERVER BY ④ ⍤⃝🌻④ ۩ ---
+<h3><font color='red'> мyτєℓ ပလန်ဒေတါမဖြတ်တဲ့ဖိုင်
 </font></h3>
 
-<h4><font color='cyan'>Telegram Channel >> https://t.me/Pmttg
-</font></h4>
-
-<h4><font color='blue'>Telegram Channel >> https://t.me/nkka_404
+<h4><font color='blue'>ချန်နယ်လေးကို joinထားပါ☛https://t.me/myanmarsshnet
 </font></h4>
 
 <h3><font color='red'>▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬
 </font></h3>" | tee /etc/ssh/gcp_404 >/dev/null
-useradd "404" --shell=/bin/false -M
-echo "404:404" | chpasswd
+useradd "505" --shell=/bin/false -M
+echo "505:505" | chpasswd
 
 echo ""
 
